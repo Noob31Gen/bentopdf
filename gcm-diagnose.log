@@ -1,0 +1,185 @@
+﻿Diagnose log at 2025-11-21T14:09:18Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Noob31
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=ICEHAWK
+GIT_TRACE2_PARENT_SID=2016295c-d7da-4ec8-aec1-131cd0b2dc51
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\Noob31\OneDrive
+ChocolateyLastPathUpdate=133375106871963030
+TMP=C:\Users\Noob31\AppData\Local\Temp
+HOME=C:\Users\Noob31
+PROCESSOR_REVISION=8d01
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\Noob31\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Noob31\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+COLORTERM=truecolor
+windir=C:\WINDOWS
+USERDOMAIN=ICEHAWK
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Noob31\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\platform-tools;D:\Program Installers\flutter\bin;D:\Programs\ANDROID APP\cmdline-tools\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\cloudflared\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Tailscale\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Noob31\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\Noob31\AppData\Local\Programs\Python\Python314\;C:\Users\Noob31\scoop\shims;C:\Users\Noob31\AppData\Local\Python\bin;C:\Users\Noob31\AppData\Local\Python\pythoncore-3.14-64\Scripts;C:\Users\Noob31\AppData\Local\Microsoft\WindowsApps;C:\Users\Noob31\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Noob31\AppData\Local\Microsoft\WindowsApps;C:\Users\Noob31\.cache\lm-studio\bin;C:\Users\Noob31\AppData\Local\Microsoft\WinGet\Links;D:\Downloads\php-8.4.12-Win32-vs17-x64;
+PROCESSOR_LEVEL=6
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+TMPDIR=C:\Users\Noob31\AppData\Local\Temp
+PSModulePath=C:\Users\Noob31\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=12
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbP3ox6P1tkmIHErhUG62uwQAAAACAAAAAAAQZgAAAAEAACAAAABe9dqZJ5hLBG+/VNfvAmFZ4Ub3wz21l6NeoK+dmPjiEgAAAAAOgAAAAAIAACAAAAA+WFFRbXWvlrj84NrhDFcfAzQIfTkLIgbr+v1Ms/EfT2AAAADCnsC1FC7uGASbQe3C1dJtELqiLzKOxMXtxVLEImYC9dV+pfYAo+roYHUit9huFnNePbCGsOmpij75DfMiIwVIzq1YNn6254sKj6btEvQyXWgGDp1nmTIhEu6rBHO8Y2VAAAAA2CCcPp8q+eOkXY2elgJKfoOoAyoDv9BB3cBs5frR2dmK2BJg/9PkLok2iLnkI2K7Fc845ptLgZGB1KKgvXPt/g==
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ChocolateyInstall=C:\ProgramData\chocolatey
+ProgramW6432=C:\Program Files
+EFC_11704=1
+SESSIONNAME=Console
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\ICEHAWK
+USERPROFILE=C:\Users\Noob31
+SystemRoot=C:\WINDOWS
+USERDOMAIN_ROAMINGPROFILE=ICEHAWK
+APPDATA=C:\Users\Noob31\AppData\Roaming
+HOMEDRIVE=C:
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+USERNAME=Noob31
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+PT8HOME=C:\Program Files\Cisco Packet Tracer 8.2.2
+OneDriveConsumer=C:\Users\Noob31\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Noob31\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Noob31\AppData\Local\Temp\3be9415285ad49772c0b3d09'... OK
+Reading from temporary file 'C:\Users\Noob31\AppData\Local\Temp\3be9415285ad49772c0b3d09'... OK
+Deleting temporary file 'C:\Users\Noob31\AppData\Local\Temp\3be9415285ad49772c0b3d09'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Noob31
+UserDataDirectoryPath: C:\Users\Noob31\.gcm
+GetCurrentDirectory(): D:\Programs\dist-1.7.8
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:55242/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.48.1.windows.1'
+Locating current repository...Git repository at 'D:/Programs/dist-1.7.8/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Noob31/.gitconfig	safe.directory=D:/
+file:C:/Users/Noob31/.gitconfig	core.autocrlf=true
+file:C:/Users/Noob31/.gitconfig	user.name=Noob31Gen
+file:C:/Users/Noob31/.gitconfig	user.email=noob31.random@proton.me
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Noob31Gen/bentoppfown.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Noob31\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Noob31\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
