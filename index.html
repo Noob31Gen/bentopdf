@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BentoPDF - The Privacy First PDF Toolkit</title>
+    <title>BentoPDF hosted by Noob31</title>
     <link rel="icon" type="image/png" href="./images/favicon.svg" />
-    <script type="module" crossorigin src="/assets/main-WVgmvrzg.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/lucide-CsvaVU3k.js">
-    <link rel="modulepreload" crossorigin href="/assets/mobileMenu-BgUUa2aN.js">
-    <link rel="modulepreload" crossorigin href="/assets/version-C9vromJL.js">
-    <link rel="modulepreload" crossorigin href="/assets/shortcuts-C-IEUyZ3.js">
-    <link rel="stylesheet" crossorigin href="/assets/lucide-RdtSYkoI.css">
+    <script type="module" crossorigin src="/assets/main-HrG_T62O.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/lucide-iiCyoXQ9.js">
+    <link rel="modulepreload" crossorigin href="/assets/mobileMenu-95gHE_Cx.js">
+    <link rel="modulepreload" crossorigin href="/assets/version-DO5GlDW8.js">
+    <link rel="modulepreload" crossorigin href="/assets/shortcuts-CWaHRhee.js">
+    <link rel="stylesheet" crossorigin href="/assets/lucide-jG-RjR3Y.css">
 </head>
 
 <body class="antialiased">
@@ -25,19 +25,23 @@
           </span>
                 </div>
 
+                <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="index.html#tools-header" class="nav-link">All Tools</a>
                 </div>
 
+                <!-- Mobile Hamburger Button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-button" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 transition-colors" aria-controls="mobile-menu"
                         aria-expanded="false">
             <span class="sr-only">Open main menu</span>
+            <!-- Hamburger Icon -->
             <svg id="menu-icon" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
               stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
+            <!-- Close Icon -->
             <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
               viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -47,6 +51,7 @@
             </div>
         </div>
 
+        <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden bg-gray-800 border-t border-gray-700">
             <div class="px-2 pt-2 pb-3 space-y-1 text-center">
                 <a href="index.html" class="mobile-nav-link">Home</a>
@@ -57,12 +62,15 @@
     <div id="app" class="min-h-screen container mx-auto p-4 md:p-8">
         <section id="hero-section" class="text-center py-20">
             <h1 class="text-4xl md:text-7xl font-bold text-white mb-4">
-                This instance of BentoPDF is hosted by Noob31 for personal use.
+                This instance of
+                <span class="inline-flex items-center gap-3 border-2 border-indigo-400 bg-indigo-900 text-indigo-300 px-4 py-2 rounded-full mx-2 align-middle">
+                  BentoPDF </span>is hosted by Noob31
+                <span class="text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">.</span>
             </h1>
-            <p class="text-lg text-gray-400 mb-8">For the official page, visit <a href="https://bentopdf.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline">bentopdf.com</a>.</p>
+            <p class="text-lg text-gray-400 mb-8">For the official page, please visit <span class="text-indigo-400"><a href="https://bentopdf.com/">bentopdf.com</a></span>.</p>
 
             <div class="flex flex-col items-center gap-4">
-                <a href="#tools-header" class="inline-block px-8 py-3 rounded-full bg-gradient-to-b from-indigo-500 to-indigo-600 text-white font-semibold focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-indigo-400 hover:shadow-xl hover:shadow-indigo-500/30 transition-all duration-200 transform hover:-translate-y-1">Tools List</a>
+                <a href="#tools-header" class="inline-block px-8 py-3 rounded-full bg-gradient-to-b from-indigo-500 to-indigo-600 text-white font-semibold focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-indigo-400 hover:shadow-xl hover:shadow-indigo-500/30 transition-all duration-200 transform hover:-translate-y-1">Browse Tools</a>
             </div>
         </section>
 
@@ -70,7 +78,7 @@
 
         <div id="tools-header" class="text-center mb-12">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-3">
-                PDF <span class="marker-slanted ml-2"> Tools</span>
+                Get Started with <span class="marker-slanted ml-2"> Tools</span>
             </h2>
             <p class="text-gray-400">Click a tool to open the file uploader</p>
         </div>
@@ -144,18 +152,32 @@
             </div>
         </div>
 
+        <!-- Shortcuts Modal -->
         <div id="shortcuts-modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
             <div class="bg-gray-800 w-full max-w-2xl rounded-xl border border-gray-700 shadow-2xl flex flex-col max-h-[80vh]">
                 <div class="p-6 border-b border-gray-700 flex justify-between items-center">
                     <h3 class="text-xl font-bold text-white flex items-center gap-2">
-                        <i data-lucide="keyboard" class="w-6 h-6 text-indigo-400"></i> Keyboard Shortcuts
+                        <i data-lucide="settings" class="w-6 h-6 text-indigo-400"></i> Settings
                     </h3>
                     <button id="close-shortcuts-modal" class="text-gray-400 hover:text-white transition-colors">
             <i data-lucide="x" class="w-6 h-6"></i>
           </button>
                 </div>
 
-                <div class="p-6 overflow-y-auto flex-grow">
+                <!-- Tabs -->
+                <div class="flex border-b border-gray-700">
+                    <button id="shortcuts-tab-btn" class="flex-1 py-3 text-sm font-medium bg-indigo-600 text-white">
+            <i data-lucide="keyboard" class="inline-block w-4 h-4 mr-1"></i>
+            Shortcuts
+          </button>
+                    <button id="preferences-tab-btn" class="flex-1 py-3 text-sm font-medium text-gray-300 hover:text-white">
+            <i data-lucide="sliders" class="inline-block w-4 h-4 mr-1"></i>
+            Preferences
+          </button>
+                </div>
+
+                <!-- Shortcuts Tab Content -->
+                <div id="shortcuts-tab-content" class="p-6 overflow-y-auto flex-grow">
                     <div class="flex justify-between items-center mb-6">
                         <div class="relative flex-grow mr-4">
                             <i data-lucide="search" class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500"></i>
@@ -174,17 +196,45 @@
                     </div>
 
                     <div id="shortcuts-list" class="space-y-2">
+                        <!-- Shortcuts will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Preferences Tab Content -->
+                <div id="preferences-tab-content" class="hidden p-6 overflow-y-auto flex-grow">
+                    <h4 class="text-lg font-semibold text-white mb-4">Display Preferences</h4>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between p-4 bg-gray-900 rounded-lg border border-gray-700">
+                            <div class="flex-1">
+                                <label for="full-width-toggle" class="text-sm font-medium text-gray-200 cursor-pointer">
+                  Full Width Mode
+                </label>
+                                <p class="text-xs text-gray-400 mt-1">
+                                    Use the full screen width for all tools instead of a centered container
+                                </p>
+                            </div>
+                            <label class="relative inline-flex items-center cursor-pointer ml-4">
+                <input type="checkbox" id="full-width-toggle" class="sr-only peer">
+                <div
+                  class="w-11 h-6 bg-gray-700 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-indigo-800 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-600">
+                </div>
+              </label>
+                        </div>
                     </div>
                 </div>
 
                 <div class="p-6 border-t border-gray-700 flex justify-between items-center bg-gray-850 rounded-b-xl">
-                    <div class="flex gap-3">
+                    <div id="shortcuts-tab-footer" class="flex gap-3">
                         <button id="import-shortcuts-btn" class="text-gray-400 hover:text-white text-sm font-medium flex items-center gap-1 transition-colors">
               <i data-lucide="upload" class="w-4 h-4"></i> Import
             </button>
                         <button id="export-shortcuts-btn" class="text-gray-400 hover:text-white text-sm font-medium flex items-center gap-1 transition-colors">
               <i data-lucide="download" class="w-4 h-4"></i> Export
             </button>
+                    </div>
+                    <div id="preferences-tab-footer" class="hidden w-full">
+                        <p class="text-xs text-gray-400 text-center">Settings are automatically saved</p>
                     </div>
                     <button id="reset-shortcuts-btn" class="text-red-400 hover:text-red-300 text-sm font-medium transition-colors">
             Reset to Defaults
@@ -193,6 +243,7 @@
             </div>
         </div>
 
+        <!-- Warning Modal -->
         <div id="warning-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
             <div class="bg-gray-800 rounded-xl border border-gray-700 shadow-2xl max-w-md w-full overflow-hidden animate-scale-in">
                 <div class="p-6">
@@ -217,7 +268,14 @@
             </div>
         </div>
 
+        <div class="section-divider"></div>
+
         <div id="signature-ghost" class="hidden"></div>
+
+        <!-- Scroll to Top Button -->
+        <button id="scroll-to-top-btn" class="fixed bottom-12 right-8 bg-indigo-600 hover:bg-indigo-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 opacity-0 translate-y-10 invisible z-40" aria-label="Scroll to top">
+      <i data-lucide="arrow-up" class="w-6 h-6"></i>
+    </button>
     </div>
 
     <footer class="mt-16 border-t-2 border-gray-700 py-8">
@@ -226,6 +284,9 @@
                 <div class="mb-8 md:mb-0">
                     <p class="text-gray-400 text-sm">
                         &copy; 2025 BentoPDF. All rights reserved.
+                    </p>
+                    <p class="text-gray-500 text-xs mt-2">
+                        Version <span id="app-version"></span>
                     </p>
                 </div>
             </div>
