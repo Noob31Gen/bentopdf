@@ -1,1 +1,0 @@
-const o="1.8.1",t={version:o},s=t.version;function e(){document.querySelectorAll("#app-version, #app-version-simple").forEach(n=>{n.textContent=s})}typeof document<"u"&&(document.readyState==="loading"?document.addEventListener("DOMContentLoaded",e):e());

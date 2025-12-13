@@ -1,1 +1,0 @@
-import"./mobileMenu-BZ6_9HLx.js";function e(){localStorage.getItem("fullWidthMode")==="true"&&l()}function l(t){document.querySelectorAll("#tool-uploader").forEach(d=>{d.classList.remove("max-w-2xl","max-w-5xl")})}typeof document<"u"&&(document.readyState==="loading"?document.addEventListener("DOMContentLoaded",e):e());
