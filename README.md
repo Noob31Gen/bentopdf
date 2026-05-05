@@ -66,4 +66,6 @@ The finished files will be in the `dist` folder.
 
 ## License
 
-This project uses the AGPL-3.0 License. See the LICENSE file for more details.
+This project uses the AGPL-3.0 License from BentoPDF. See the LICENSE file for more details.
+
+
